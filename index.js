@@ -57,3 +57,17 @@ var aText, newText;
 aText = 'Crocodile is an animal';
 newText = aText.substring(0,5);
 console.log('The first five characters are:', newText);
+
+
+/*
+2.c)
+Crear una variable de tipo string con al menos 10 caracteres y
+generar un nuevo string con los últimos 3 caracteres
+guardando el resultado en una nueva variable (utilizar substring).
+*/
+
+var bText, cantLetters, lastLetters;
+bText = 'I dont like soup';
+cantLetters = bText.length - 4;
+lastLetters = bText.substring(cantLetters);
+console.log('The last four characters are:', lastLetters);
