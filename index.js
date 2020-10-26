@@ -85,3 +85,14 @@ oneLetter = myPhrase.substring(0,1);
 leftoverLetter = myPhrase.substring(1);
 newPhrase = oneLetter.toUpperCase() + leftoverLetter;
 console.log('The phrase with a first letter diferent:', newPhrase);
+
+/*
+2.e)
+Crear una variable de tipo string con al menos 10 caracteres y algún espacio en blanco.
+Encontrar la posición del primer espacio en blanco y guardarla en una variable (utilizar indexOf).
+*/
+
+var mySecondPhrase, numberIndex;
+mySecondPhrase = 'Newspapper is old';
+numberIndex = mySecondPhrase.indexOf(' ');
+console.log('The first blank is at position:', numberIndex);
