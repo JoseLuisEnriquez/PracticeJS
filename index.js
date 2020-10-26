@@ -22,3 +22,15 @@ word1 = 'Good';
 word2 = 'Morning';
 unionWords = word1 + word2;
 console.log('Joining two words forms:', unionWords);
+
+/*
+1.c)
+Crear dos variables de tipo String y sumar el largo de cada variable
+(cantidad de letras del string) guardando el resultado la suma una 3er variable (utilizar length).
+*/
+
+var lettWord1, lettWord2, cantChar;
+lettWord1 = 'I dont know';
+lettWord2 = 'My name is Jose';
+cantChar = lettWord1 + lettWord2;
+console.log('The phrase has:', cantChar.length, 'characters');
