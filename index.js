@@ -96,3 +96,24 @@ var mySecondPhrase, numberIndex;
 mySecondPhrase = 'Newspapper is old';
 numberIndex = mySecondPhrase.indexOf(' ');
 console.log('The first blank is at position:', numberIndex);
+
+/*
+2.f)
+Crear una variable de tipo string con al menos 2 palabras largas (10 caracteres y algún espacio entre medio).
+Utilizar los métodos de los ejercicios anteriores para generar un nuevo string
+que tenga la primera letra de ambas palabras en mayúscula y
+las demás letras en minúscula (utilizar indexOf, substring, toUpperCase, toLowerCase y el operador +).
+*/
+
+var aBigPhrase, letter1, remains, nmbrIndex, oneSpace, others;
+aBigPhrase = 'locomotive accommodation';
+letter1 = aBigPhrase.substring(0,1);
+remains = aBigPhrase.substring(1);
+aBigPhrase = letter1.toUpperCase() + remains;
+nmbrIndex = aBigPhrase.indexOf(' ');
+letter1 = aBigPhrase.substring(0,nmbrIndex);
+remains = aBigPhrase.substring(nmbrIndex);
+oneSpace = remains.substring(0,2);
+others = remains.substring(2);
+aBigPhrase = letter1 + oneSpace.toUpperCase() + others;
+console.log('The first letters are changed:', aBigPhrase);
