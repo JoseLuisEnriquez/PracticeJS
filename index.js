@@ -71,3 +71,17 @@ bText = 'I dont like soup';
 cantLetters = bText.length - 4;
 lastLetters = bText.substring(cantLetters);
 console.log('The last four characters are:', lastLetters);
+
+/*
+2.d)
+Crear una variable de tipo string con al menos 10 caracteres y
+generar un nuevo string con la primera letra en mayúscula y las demás en minúscula.
+Guardar el resultado en una nueva variable (utilizar substring, toUpperCase, toLowerCase y el operador +).
+*/
+
+var myPhrase, oneLetter, leftoverLetter, newPhrase;
+myPhrase = 'anewphraseforatest';
+oneLetter = myPhrase.substring(0,1);
+leftoverLetter = myPhrase.substring(1);
+newPhrase = oneLetter.toUpperCase() + leftoverLetter;
+console.log('The phrase with a first letter diferent:', newPhrase);
