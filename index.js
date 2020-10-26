@@ -10,4 +10,15 @@ var num1, num2, res;
 num1 = 10;
 num2 = 15;
 res = num1 + num2;
-console.log('La suma de 2 números dio como resultado:', res);
+console.log('The sum of 2 numbers resulted in:', res);
+
+/*
+1.b)
+Crear dos variables de tipo String y concatenarlas guardando el resultado en una 3er variable.
+*/
+
+var word1, word2, unionWords;
+word1 = 'Good';
+word2 = 'Morning';
+unionWords = word1 + word2;
+console.log('Joining two words forms:', unionWords);
