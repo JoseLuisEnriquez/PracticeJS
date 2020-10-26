@@ -46,3 +46,14 @@ convertir todo el texto en mayúscula (utilizar toUpperCase).
 var bigWord;
 bigWord = 'this is a sample text';
 console.log('The original text is:', bigWord, '. And now it looks like this:', bigWord.toUpperCase());
+
+/*
+2.b)
+Crear una variable de tipo string con al menos 10 caracteres y generar un nuevo string
+con los primeros 5 caracteres guardando el resultado en una nueva variable (utilizar substring).
+*/
+
+var aText, newText;
+aText = 'Crocodile is an animal';
+newText = aText.substring(0,5);
+console.log('The first five characters are:', newText);
