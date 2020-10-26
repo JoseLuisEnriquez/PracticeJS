@@ -34,3 +34,15 @@ lettWord1 = 'I dont know';
 lettWord2 = 'My name is Jose';
 cantChar = lettWord1 + lettWord2;
 console.log('The phrase has:', cantChar.length, 'characters');
+
+// Strings
+
+/*
+2.a)
+Crear una variable de tipo string con al menos 10 caracteres y
+convertir todo el texto en mayúscula (utilizar toUpperCase).
+*/
+
+var bigWord;
+bigWord = 'this is a sample text';
+console.log('The original text is:', bigWord, '. And now it looks like this:', bigWord.toUpperCase());
