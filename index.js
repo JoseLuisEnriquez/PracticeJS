@@ -181,3 +181,13 @@ donde cada mes este separado por un guión - (utilizar join).
 var monthsTogether;
 monthsTogether = month.join('-');
 console.log('Months in a single text string:',monthsTogether);
+
+/*
+3.g)
+Crear una copia del array de meses que contenga desde Mayo hasta Noviembre (utilizar slice).
+*/
+
+var month2 = ["January", "February", "March", "April", "May", "June", "July",
+"August", "September", "October", "November", "December"], copyMonth;
+copyMonth = month2.slice(4,11);
+console.log('May to November', copyMonth);
