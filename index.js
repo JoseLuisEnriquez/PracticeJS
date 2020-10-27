@@ -297,3 +297,21 @@ for (var i = 0; i < 10; i++){
     listNumber[i] = i;
 }
 console.log(listNumber);
+
+// Functions
+
+/*
+6.a)
+Crear una función suma que reciba dos valores numéricos y retorne el resultado.
+Ejecutar la función y guardar el resultado en una variable,
+mostrando el valor de dicha variable en la consola del navegador.
+*/
+
+function suma(n1, n2){
+    return n1 + n2;
+}
+var n1, n2;
+n1 = 10;
+n2 = 12;
+var rs = suma(n1, n2);
+console.log('Result of the suma function: ', rs);
