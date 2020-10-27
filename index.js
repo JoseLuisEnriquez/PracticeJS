@@ -338,3 +338,18 @@ n3 = 'Hello';
 n4 = 15;
 var res = newSum(n3, n4);
 console.log('Result of the newSum function:', res);
+
+/*
+6.c)
+Crear una función validate integer que reciba un número como parámetro
+y devuelva verdadero si es un número entero.
+*/
+
+function validateInteger(x){
+    if (Number.isInteger(x)){
+        return('The number is integer');
+    } else return ('The number is not integer');
+}
+var x;
+x = 2;
+console.log(validateInteger(x));
