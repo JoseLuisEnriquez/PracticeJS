@@ -383,3 +383,26 @@ var y, z;
 y = 1.5;
 z = 2;
 console.log('Sum of integers:', anotherNewSum(y,z));
+
+/*
+6.e)
+Convertir la validación del ejercicio 6b) en una función separada
+y llamarla dentro de la función suma probando que todo siga funcionando igual.
+*/
+
+function sumTwoNumbers(a, b){
+    valiNumber(a,b);
+    return a + b;
+}
+function valiNumber(a, b){
+    if (isNaN(a)){
+        return alert('The first value is not a number');
+    }
+    else if (isNaN(b)){
+        return alert('The second value is not a number');
+    }
+}
+var a, b;
+a = 5;
+b = 7;
+console.log('Separate functions:',sumTwoNumbers(a,b));
