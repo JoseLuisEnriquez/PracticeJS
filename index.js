@@ -353,3 +353,33 @@ function validateInteger(x){
 var x;
 x = 2;
 console.log(validateInteger(x));
+
+/*
+6.d)
+A la función suma del ejercicio 6b) agregarle una llamada que valide que los números sean enteros.
+En caso que haya decimales mostrar un alerta con el error y retorna el número convertido a entero (redondeado).
+*/
+
+function anotherNewSum(y, z){
+    if (isNaN(y)){
+        return alert('The first value is not a number');
+    }
+    if (isNaN(z)){
+        return alert('The second value is not a number');
+    }
+    if (!Number.isInteger(y)){
+        alert('The first value is a decimal number');
+        y = Math.round(y);
+        alert(`The value has been rounded to: ${y}`)
+    }
+    if (!Number.isInteger(z)){
+        alert('The second value is a decimal number');
+        z = Math.round(z);
+        alert(`The value has been rounded to: ${z}`)
+    }
+    return y + z;
+}
+var y, z;
+y = 1.5;
+z = 2;
+console.log(anotherNewSum(y,z));
