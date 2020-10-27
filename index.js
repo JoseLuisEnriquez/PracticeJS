@@ -130,3 +130,12 @@ mostrar por consola los meses 5 y 11 (utilizar console.log)
 var month = ["January", "February", "March", "April", "May", "June", "July",
 "August", "September", "October", "November", "December"];
 console.log('Months 5 and 11 are:', month[4], month[10]);
+
+/*
+3.b)
+Ordenar el array de meses alfabéticamente y mostrarlo por consola (utilizar sort).
+*/
+
+var orderMonthName;
+orderMonthName = month.sort();
+console.log('Months sorted by name:', orderMonthName);
