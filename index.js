@@ -243,3 +243,16 @@ else if (Age > 60 && Age <= 75){
 else {
     alert('Old man');
 }
+
+//For
+
+/*
+5.a)
+Crear un array que contenga 5 palabras y recorrer dicho array utilizando un bucle for de JavaScript
+para mostrar una alerta utilizando cada una de las palabras.
+*/
+
+var list = ['one', 'two', 'three', 'four', 'five'];
+for (var i = 0; i < 5; i++){
+    alert(list[i]);
+}
