@@ -161,3 +161,13 @@ quitElements = newElements;
 quitElements.shift('Sun');
 quitElements.pop('Moon');
 console.log('The Sun and Moon elements have been removed', quitElements);
+
+/*
+3.e)
+Invertir el orden del array (utilizar reverse).
+*/
+
+var monthReverse;
+monthReverse = month;
+monthReverse.reverse();
+console.log('Months ordered from highest to lowest', monthReverse);
