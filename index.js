@@ -256,3 +256,17 @@ var list = ['one', 'two', 'three', 'four', 'five'];
 for (var i = 0; i < 5; i++){
     alert(list[i]);
 }
+
+/*
+5.b)
+Al array anterior convertir la primera letra de cada palabra en mayúscula y
+mostrar una alerta por cada palabra modificada.
+*/
+
+var fLetter, rem;
+for (var i = 0; i < 5; i++){
+    fLetter = list[i].substring(0,1);
+    rem = list[i].substring(1);
+    list[i] = fLetter.toUpperCase() + rem;
+    alert (list[i]);
+}
