@@ -171,3 +171,13 @@ var monthReverse;
 monthReverse = month;
 monthReverse.reverse();
 console.log('Months ordered from highest to lowest', monthReverse);
+
+/*
+3.f)
+Unir todos los elementos del array en un único string
+donde cada mes este separado por un guión - (utilizar join).
+*/
+
+var monthsTogether;
+monthsTogether = month.join('-');
+console.log('Months in a single text string:',monthsTogether);
