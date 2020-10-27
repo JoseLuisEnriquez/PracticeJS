@@ -150,3 +150,14 @@ newElements = month;
 newElements.unshift('Sun');
 newElements.push('Moon');
 console.log('Sun and Moon elements are added:', newElements);
+
+/*
+3.d)
+Quitar un elemento del principio y del final del array (utilizar shift y pop).
+*/
+
+var quitElements;
+quitElements = newElements;
+quitElements.shift('Sun');
+quitElements.pop('Moon');
+console.log('The Sun and Moon elements have been removed', quitElements);
