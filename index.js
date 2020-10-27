@@ -139,3 +139,14 @@ Ordenar el array de meses alfabéticamente y mostrarlo por consola (utilizar sor
 var orderMonthName;
 orderMonthName = month.sort();
 console.log('Months sorted by name:', orderMonthName);
+
+/*
+3.c)
+Agregar un elemento al principio y al final del array (utilizar unshift y push).
+*/
+
+var newElements;
+newElements = month;
+newElements.unshift('Sun');
+newElements.push('Moon');
+console.log('Sun and Moon elements are added:', newElements);
