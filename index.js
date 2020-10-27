@@ -382,4 +382,4 @@ function anotherNewSum(y, z){
 var y, z;
 y = 1.5;
 z = 2;
-console.log(anotherNewSum(y,z));
+console.log('Sum of integers:', anotherNewSum(y,z));
