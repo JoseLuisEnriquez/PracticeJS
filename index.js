@@ -315,3 +315,26 @@ n1 = 10;
 n2 = 12;
 var rs = suma(n1, n2);
 console.log('Result of the suma function: ', rs);
+
+/*
+6.b)
+A la función suma anterior, agregarle una validación para controlar si alguno de los parámetros no es un número,
+mostrar una alerta aclarando que uno de los parámetros tiene error y retornar el valor NaN como resultado.
+*/
+
+function newSum(n3, n4){
+    if (isNaN(n3)){
+        return alert('The first value is not a number');
+    }
+    else if (isNaN(n4)){
+        return alert('The second value is not a number');
+    }
+    else{
+        return n3 + n4;
+    }
+}
+var n3, n4;
+n3 = 'Hello';
+n4 = 15;
+var res = newSum(n3, n4);
+console.log('Result of the newSum function:', res);
