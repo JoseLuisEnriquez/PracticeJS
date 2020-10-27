@@ -117,3 +117,16 @@ oneSpace = remains.substring(0,2);
 others = remains.substring(2);
 aBigPhrase = letter1 + oneSpace.toUpperCase() + others;
 console.log('The first letters are changed:', aBigPhrase);
+
+//Arrays
+
+/*
+3.a)
+Dado el siguiente array: ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio",
+"Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"]
+mostrar por consola los meses 5 y 11 (utilizar console.log)
+*/
+
+var month = ["January", "February", "March", "April", "May", "June", "July",
+"August", "September", "October", "November", "December"];
+console.log('Months 5 and 11 are:', month[4], month[10]);
