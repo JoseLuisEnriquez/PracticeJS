@@ -270,3 +270,17 @@ for (var i = 0; i < 5; i++){
     list[i] = fLetter.toUpperCase() + rem;
     alert (list[i]);
 }
+
+/*
+5.c)
+Crear una variable llamada “sentence” que tenga un string vacío, luego al array del punto a)
+recorrerlo con un bucle for para ir guardando cada palabra dentro de la variable sentence.
+Al final mostrar una única alerta con la cadena completa.
+*/
+
+var sentence;
+sentence = list[0];
+for (var i = 1; i <5; i++){
+    sentence = sentence + list[i];
+}
+alert(sentence);
